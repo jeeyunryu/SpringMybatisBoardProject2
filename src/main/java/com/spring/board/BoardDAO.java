@@ -29,7 +29,7 @@ public class BoardDAO {
 	}
 
 	public int deleteBoard(int seq) {
-		int result = sqlSession.delete("Board.insertBoard", seq);
+		int result = sqlSession.delete("Board.deleteBoard", seq);
 		return result;
 	}
 

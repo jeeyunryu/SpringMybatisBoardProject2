@@ -9,7 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69c39d5f-cfc8-4691-97b6-7afd6a26d898" name="Changes" comment="init commit" />
+    <list default="true" id="69c39d5f-cfc8-4691-97b6-7afd6a26d898" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/util/LoginCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mappers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/snowman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +38,8 @@
         <option value="spring-beans.schema" />
         <option value="package.json" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,9 +70,9 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/kitty/IdeaProjects/SpringMybatisBoardProject2",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.3448276",
     "spring.configuration.checksum": "e90a193408882e63eefc88b62ab14297"
   },
   "keyToStringList": {
@@ -75,8 +89,11 @@
       <recent name="C:\Users\kitty\IdeaProjects\P5-2\src\main\java\com\crud\bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kitty\IdeaProjects\P5-2\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\kitty\IdeaProjects\P5-2\src\main\webapp\WEB-INF\views\board" />
+      <recent name="C:\Users\kitty\IdeaProjects\SpringMybatisBoardProject2\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\kitty\IdeaProjects\SpringMybatisBoardProject2\src\main\webapp\resources" />
+      <recent name="C:\Users\kitty\IdeaProjects\SpringMybatisBoardProject2\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\kitty\IdeaProjects\SpringMybatisBoardProject2\src\main\webapp\WEB-INF\views\login" />
+      <recent name="C:\Users\kitty\IdeaProjects\SpringMybatisBoardProject2\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -90,7 +107,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="cf52eb54-3e08-435b-b684-477644560f4e" />
+        <option name="BASE_DIRECTORY_NAME" value="a3646805-44f4-4545-a52a-ea40ba0f30f2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -98,7 +115,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49922" />
+        <option name="DEBUG_PORT" value="60064" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -180,7 +197,7 @@
       <workItem from="1670073276447" duration="590000" />
       <workItem from="1670073900454" duration="2511000" />
       <workItem from="1670076748720" duration="2214000" />
-      <workItem from="1670570362503" duration="4439000" />
+      <workItem from="1670570362503" duration="17407000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1670078156556</created>
@@ -203,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670574423645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init commit">
+      <created>1670574895405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670574895405</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
