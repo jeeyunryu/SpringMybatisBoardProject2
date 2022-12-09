@@ -1,0 +1,63 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -9,21 +9,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="69c39d5f-cfc8-4691-97b6-7afd6a26d898" name="Changes" comment="init commit">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/LoginController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserDAO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserServiceImpl.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/member/UserVO.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/util/LoginCheckInterceptor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/user-mappers.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/img/snowman.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="69c39d5f-cfc8-4691-97b6-7afd6a26d898" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -197,7 +183,7 @@
+       <workItem from="1670073276447" duration="590000" />
+       <workItem from="1670073900454" duration="2511000" />
+       <workItem from="1670076748720" duration="2214000" />
+-      <workItem from="1670570362503" duration="17407000" />
++      <workItem from="1670570362503" duration="17762000" />
+     </task>
+     <task id="LOCAL-00001" summary="init commit">
+       <created>1670078156556</created>
+@@ -227,7 +213,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670574895405</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="add login function">
++      <created>1670592253353</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1670592253353</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -246,6 +239,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="init commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
++    <MESSAGE value="add login function" />
++    <option name="LAST_COMMIT_MESSAGE" value="add login function" />
+   </component>
+ </project>
+\ No newline at end of file
